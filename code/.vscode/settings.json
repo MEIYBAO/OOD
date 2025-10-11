@@ -1,0 +1,10 @@
+{
+  // 关闭 VS Code 的内联建议（ghost text）
+  "editor.inlineSuggest.enabled": false,
+
+  // 如果使用 GitHub Copilot，禁用 Copilot 的 inline suggestions（保留扩展但关闭内联提示）
+  "github.copilot.inlineSuggest.enable": false,
+
+  // 其他可选：如果你想完全禁用 Copilot，可改为 false
+  // "github.copilot.enable": false
+}
