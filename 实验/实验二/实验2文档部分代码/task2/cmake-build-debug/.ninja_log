@@ -1,0 +1,9 @@
+# ninja log v5
+0	645	7828006469661031	CMakeFiles/Complex.cpp.dir/Complex.cpp.obj	ada16ce34ac735d1
+7	723	7828006470406394	CMakeFiles/Complex.cpp.dir/task2.cpp.obj	2cd41e846f8e55ee
+5	631	7828006922314024	CMakeFiles/Complex.cpp.dir/Complex.cpp.obj	ada16ce34ac735d1
+12	757	7828006923614857	CMakeFiles/Complex.cpp.dir/task2.cpp.obj	2cd41e846f8e55ee
+757	964	7828006925619442	Complex.cpp.exe	6ed21e3e84a2aa0
+2	398	7828035916891300	CMakeFiles/Complex.cpp.dir/Complex.cpp.obj	ada16ce34ac735d1
+7	399	7828035916901360	CMakeFiles/Complex.cpp.dir/task2.cpp.obj	2cd41e846f8e55ee
+399	569	7828035918572392	Complex.cpp.exe	6ed21e3e84a2aa0

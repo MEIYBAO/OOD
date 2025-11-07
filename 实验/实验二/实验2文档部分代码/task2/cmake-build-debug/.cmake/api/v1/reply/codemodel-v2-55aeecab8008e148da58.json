@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Complex.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Complex.cpp-Debug-604e04411a915d9a71e4.json",
+					"name" : "Complex.cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/file/OOD/\u5b9e\u9a8c/\u5b9e\u9a8c\u4e8c/\u5b9e\u9a8c2\u6587\u6863\u90e8\u5206\u4ee3\u7801/task2/cmake-build-debug",
+		"source" : "D:/file/OOD/\u5b9e\u9a8c/\u5b9e\u9a8c\u4e8c/\u5b9e\u9a8c2\u6587\u6863\u90e8\u5206\u4ee3\u7801/task2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

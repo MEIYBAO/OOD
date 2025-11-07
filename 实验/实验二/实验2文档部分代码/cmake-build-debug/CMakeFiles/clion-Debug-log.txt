@@ -1,0 +1,1 @@
+"D:\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\file\OOD\实验\实验二\实验2文档部分代码 -B D:\file\OOD\实验\实验二\实验2文档部分代码\cmake-build-debug

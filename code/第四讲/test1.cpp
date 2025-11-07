@@ -19,4 +19,5 @@ void test() {
 
 int main() {
     test();
+    cin.get();
 }
