@@ -1,0 +1,10 @@
+^D:\FILE\OOD\PROJECT\BACKENED\BUILD\CMAKEFILES\C88804F691AA7BC5AE6C7D7B428184A0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/file/OOD/project/backened -BD:/file/OOD/project/backened/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/file/OOD/project/backened/build/backened.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

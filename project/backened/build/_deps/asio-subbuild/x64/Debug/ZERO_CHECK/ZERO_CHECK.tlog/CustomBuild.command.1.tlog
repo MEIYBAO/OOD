@@ -1,0 +1,10 @@
+^D:\FILE\OOD\PROJECT\BACKENED\BUILD\_DEPS\ASIO-SUBBUILD\CMAKEFILES\C6E2A6BFD9DA84FA6BA445B25E0B13F2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/file/OOD/project/backened/build/_deps/asio-subbuild -BD:/file/OOD/project/backened/build/_deps/asio-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/file/OOD/project/backened/build/_deps/asio-subbuild/asio-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

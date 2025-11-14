@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/crow-populate"
+		},
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/3a54019adbd2835a64c370d263149028/crow-populate.rule"
+		},
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/e140202dd51c69c5992a44813b7a57dd/crow-populate-complete.rule"
+		},
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/de20de3c85a597e985e63ecf844de8d3/crow-populate-build.rule"
+		},
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/de20de3c85a597e985e63ecf844de8d3/crow-populate-configure.rule"
+		},
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/de20de3c85a597e985e63ecf844de8d3/crow-populate-download.rule"
+		},
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/de20de3c85a597e985e63ecf844de8d3/crow-populate-install.rule"
+		},
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/de20de3c85a597e985e63ecf844de8d3/crow-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/de20de3c85a597e985e63ecf844de8d3/crow-populate-patch.rule"
+		},
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/de20de3c85a597e985e63ecf844de8d3/crow-populate-test.rule"
+		},
+		{
+			"file" : "D:/file/OOD/project/backened/build/_deps/crow-subbuild/CMakeFiles/de20de3c85a597e985e63ecf844de8d3/crow-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"crow-populate"
+		],
+		"name" : "crow-populate"
+	}
+}
