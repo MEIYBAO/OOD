@@ -1,13 +1,19 @@
 #include <iostream>
 using namespace std;
 
+void fun(int *x,int *y)
+{
+    int * z = x;
+    x = y;
+    y = z;
+    cout<<*x<<" "<<*y<<endl;
+}
+
 int main() {
-    // float x = 2.0;
-    // string y = "x";
-    // add(x,y); // Êµ²ÎÊÇdoubleÀàÐÍ
-    int x = 4;
-    int &&r = move(x);
-    cout<<r<<" "<<x<<endl;
+    int x = 5,y = 10;
+    fun(&x,&y);
+    cout<<x<<" "<<y<<endl;
+    //è¾“å‡ºç»“æžœä¸ºâ€œ5 10â€
     return 0;
 }
 

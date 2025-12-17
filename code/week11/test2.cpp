@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
-#include<algorithm>
+#include <algorithm>
+#include <initializer_list>
 
 template<typename T>
 void output(const T &v) {
@@ -25,7 +26,11 @@ void test1() {
 
 class Y:public std::vector<int>{
 public:
-    using std::vector<int>::vector;
+    ///using std::vector<int>::vector;
+    Y() = default;
+    Y(int n) : vector<int>(n){}
+    Y(std::initializer_list<int> ls) : vector<int>(ls){}
+
     void sort(bool flag = true)
     {
         if(flag)

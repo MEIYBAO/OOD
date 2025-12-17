@@ -1,35 +1,48 @@
-#include <bits/stdc++.h>
+/*
+请改正程序中指定位置的错误，使程序的输出结果如下：
+45123
+65123
+
+注意：只允许修改注释"ERROR"的下一行，不得改动程序中的其他内容，也不允许增加或删减语句。
+试题源程序：
+*/
+#include<iostream>
 using namespace std;
-
-class A
-{
-    private:
-        int a,b;
-    public:
-        static int count;
-        A(int a,int b) : a(a),b(b)
-        {
-            cout<<"A\n";
-            count++;
-        }
+class BaseClass {
+	public:
+		int x;
 };
 
-class B
-{
-    private:
-        A x;
-        int a,b;
-    public:
-        B(A x,int c,int d) : x(x),a(c),b(d){
-            cout<<"B\n";
-        }
+/**********ERROR**********/
+class ClassA:public BaseClass {
+	protected:
+		int y;
 };
 
-int A::count = 0;
+/**********ERROR**********/
+class ClassB:public BaseClass {
+	protected:
+		int z;
+};
+class Derived:public ClassA,public ClassB {
+	public:
+		int x;
+		Derived() {
+			x=1,y=2,z=3;
 
-int main()
-{
-    A x(1,2);
-    B y(x,3,4);
-    cout<<A::count<<endl;
+/**********ERROR**********/
+			
+		}
+		void Display() {
+			cout<<ClassA::x<<ClassB::x<<x<<y<<z<<endl;
+		}
+};
+int main() {
+	Derived d;
+	d.Display();
+	d.ClassA::x=6;
+
+/**********ERROR**********/
+	d.Display();
+	return 0;
 }
